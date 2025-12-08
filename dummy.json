@@ -1,0 +1,412 @@
+
+[
+    {
+    "chunks": [
+        {
+            "end": 21,
+            "text": "My name is Mark Smith",
+            "start": 0,
+            "senEle": "",
+            "gramEle": "",
+            "modifier": false,
+            "rendType": "CCLS",
+            "explanation": null
+        },
+        {
+            "end": 7,
+            "text": "My name",
+            "start": 0,
+            "senEle": "S",
+            "gramEle": "",
+            "modifier": false,
+            "rendType": "S",
+            "explanation": null
+        },
+        {
+            "end": 10,
+            "text": "is",
+            "start": 8,
+            "senEle": "V",
+            "gramEle": "",
+            "modifier": false,
+            "rendType": "V",
+            "explanation": null
+        },
+        {
+            "end": 21,
+            "text": "Mark Smith",
+            "start": 11,
+            "senEle": "SC",
+            "gramEle": "",
+            "modifier": false,
+            "rendType": "SC",
+            "explanation": null
+        },
+        {
+            "end": 58,
+            "text": "I am the manager of Lomos Tours",
+            "start": 27,
+            "senEle": "",
+            "gramEle": "",
+            "modifier": false,
+            "rendType": "CCLS",
+            "explanation": null
+        },
+        {
+            "end": 28,
+            "text": "I",
+            "start": 27,
+            "senEle": "S",
+            "gramEle": "",
+            "modifier": false,
+            "rendType": "S",
+            "explanation": null
+        },
+        {
+            "end": 31,
+            "text": "am",
+            "start": 29,
+            "senEle": "V",
+            "gramEle": "",
+            "modifier": false,
+            "rendType": "V",
+            "explanation": null
+        },
+        {
+            "end": 58,
+            "text": "the manager of Lomos Tours",
+            "start": 32,
+            "senEle": "SC",
+            "gramEle": "",
+            "modifier": false,
+            "rendType": "SC",
+            "explanation": null
+        },
+        {
+            "end": 58,
+            "text": "of Lomos Tours",
+            "start": 44,
+            "senEle": "",
+            "gramEle": "형용사구",
+            "modifier": false,
+            "rendType": "ADJPHR",
+            "explanation": null
+        }
+    ],
+    "sentence": "My name is Mark Smith, and I am the manager of Lomos Tours.",
+    "translation": "제 이름은 Mark Smith이며, 저는 Lomos Tours의 매니저입니다."
+    },
+    {
+    "chunks": [
+        {
+            "end": 49,
+            "text": "The librarian handed her a book titled Cafe Paris",
+            "start": 0,
+            "senEle": "",
+            "gramEle": "",
+            "modifier": false,
+            "rendType": "CCLS",
+            "explanation": null
+        },
+        {
+            "end": 13,
+            "text": "The librarian",
+            "start": 0,
+            "senEle": "S",
+            "gramEle": "",
+            "modifier": false,
+            "rendType": "S",
+            "explanation": null
+        },
+        {
+            "end": 20,
+            "text": "handed",
+            "start": 14,
+            "senEle": "V",
+            "gramEle": "",
+            "modifier": false,
+            "rendType": "V",
+            "explanation": null
+        },
+        {
+            "end": 24,
+            "text": "her",
+            "start": 21,
+            "senEle": "IO",
+            "gramEle": "",
+            "modifier": false,
+            "rendType": "IO",
+            "explanation": null
+        },
+        {
+            "end": 49,
+            "text": "a book titled Cafe Paris",
+            "start": 25,
+            "senEle": "DO",
+            "gramEle": "",
+            "modifier": false,
+            "rendType": "DO",
+            "explanation": null
+        },
+        {
+            "end": 31,
+            "text": "a book",
+            "start": 25,
+            "senEle": "",
+            "gramEle": "",
+            "modifier": false,
+            "rendType": "RCM",
+            "explanation": null
+        },
+        {
+            "end": 49,
+            "text": "titled Cafe Paris",
+            "start": 32,
+            "senEle": "",
+            "gramEle": "과거분사",
+            "modifier": true,
+            "rendType": "ADJPHR",
+            "explanation": null
+        },
+        {
+            "end": 94,
+            "text": "said with a smile, \"You'll love this one",
+            "start": 54,
+            "senEle": "",
+            "gramEle": "",
+            "modifier": false,
+            "rendType": "CCLS",
+            "explanation": null
+        },
+        {
+            "end": 58,
+            "text": "said",
+            "start": 54,
+            "senEle": "V",
+            "gramEle": "",
+            "modifier": false,
+            "rendType": "V",
+            "explanation": null
+        },
+        {
+            "end": 71,
+            "text": "with a smile",
+            "start": 59,
+            "senEle": "",
+            "gramEle": "부사구",
+            "modifier": false,
+            "rendType": "ADVPHR",
+            "explanation": null
+        },
+        {
+            "end": 77,
+            "text": "You",
+            "start": 74,
+            "senEle": "S",
+            "gramEle": "",
+            "modifier": false,
+            "rendType": "S",
+            "explanation": null
+        },
+        {
+            "end": 85,
+            "text": "'ll love",
+            "start": 77,
+            "senEle": "V",
+            "gramEle": "",
+            "modifier": false,
+            "rendType": "V",
+            "explanation": null
+        },
+        {
+            "end": 94,
+            "text": "this one",
+            "start": 86,
+            "senEle": "O",
+            "gramEle": "",
+            "modifier": false,
+            "rendType": "O",
+            "explanation": null
+        }
+    ],
+    "sentence": "The librarian handed her a book titled Cafe Paris and said with a smile, \"You'll love this one.\"",
+    "translation": "사서는 Cafe Paris 라는 제목의 책을 건네고는 미소 지으며 말했다. \"이 책이 마음에 들 거예요.\""
+    },
+        {
+        "chunks": [
+            {
+                "end": 19,
+                "text": "wouldn't it be",
+                "start": 5,
+                "senEle": "V",
+                "gramEle": "",
+                "modifier": false,
+                "rendType": "V",
+                "explanation": null
+            },
+            {
+                "end": 16,
+                "text": "it",
+                "start": 14,
+                "senEle": "S",
+                "gramEle": "",
+                "modifier": false,
+                "rendType": "S",
+                "explanation": null
+            },
+            {
+                "end": 23,
+                "text": "fun",
+                "start": 20,
+                "senEle": "SC",
+                "gramEle": "",
+                "modifier": false,
+                "rendType": "SC",
+                "explanation": null
+            },
+            {
+                "end": 77,
+                "text": "if we all read the same story and shared our thoughts",
+                "start": 24,
+                "senEle": "",
+                "gramEle": "부사절",
+                "modifier": false,
+                "rendType": "ADVCLS",
+                "explanation": null
+            },
+            {
+                "end": 53,
+                "text": "if we all read the same story",
+                "start": 24,
+                "senEle": "",
+                "gramEle": "",
+                "modifier": false,
+                "rendType": "CCLS",
+                "explanation": null
+            },
+            {
+                "end": 33,
+                "text": "we all",
+                "start": 27,
+                "senEle": "S",
+                "gramEle": "",
+                "modifier": false,
+                "rendType": "S",
+                "explanation": null
+            },
+            {
+                "end": 29,
+                "text": "we",
+                "start": 27,
+                "senEle": "",
+                "gramEle": "",
+                "modifier": false,
+                "rendType": "RCM",
+                "explanation": null
+            },
+            {
+                "end": 33,
+                "text": "all",
+                "start": 30,
+                "senEle": "",
+                "gramEle": "동격",
+                "modifier": true,
+                "rendType": "APPO",
+                "explanation": null
+            },
+            {
+                "end": 38,
+                "text": "read",
+                "start": 34,
+                "senEle": "V",
+                "gramEle": "",
+                "modifier": false,
+                "rendType": "V",
+                "explanation": null
+            },
+            {
+                "end": 53,
+                "text": "the same story",
+                "start": 39,
+                "senEle": "O",
+                "gramEle": "",
+                "modifier": false,
+                "rendType": "O",
+                "explanation": null
+            },
+            {
+                "end": 77,
+                "text": "shared our thoughts",
+                "start": 58,
+                "senEle": "",
+                "gramEle": "",
+                "modifier": false,
+                "rendType": "CCLS",
+                "explanation": null
+            },
+            {
+                "end": 64,
+                "text": "shared",
+                "start": 58,
+                "senEle": "V",
+                "gramEle": "",
+                "modifier": false,
+                "rendType": "V",
+                "explanation": null
+            },
+            {
+                "end": 77,
+                "text": "our thoughts",
+                "start": 65,
+                "senEle": "O",
+                "gramEle": "",
+                "modifier": false,
+                "rendType": "O",
+                "explanation": null
+            },
+            {
+                "end": 82,
+                "text": "You",
+                "start": 79,
+                "senEle": "S",
+                "gramEle": "",
+                "modifier": false,
+                "rendType": "S",
+                "explanation": null
+            },
+            {
+                "end": 100,
+                "text": "could simply read",
+                "start": 83,
+                "senEle": "V",
+                "gramEle": "",
+                "modifier": false,
+                "rendType": "V",
+                "explanation": null
+            },
+            {
+                "end": 115,
+                "text": "for 20 minutes",
+                "start": 101,
+                "senEle": "",
+                "gramEle": "부사구",
+                "modifier": false,
+                "rendType": "ADVPHR",
+                "explanation": null
+            },
+            {
+                "end": 146,
+                "text": "maybe during your lunch break",
+                "start": 117,
+                "senEle": "",
+                "gramEle": "부사구",
+                "modifier": false,
+                "rendType": "ADVPHR",
+                "explanation": null
+            }
+        ],
+        "sentence": "\"But wouldn't it be fun if we all read the same story and shared our thoughts? You could simply read for 20 minutes, maybe during your lunch break.\"",
+        "translation": "\"하지만 우리 모두 같은 이야기를 읽고 생각을 나누면 재미있지 않을까? 어쩌면 네 점심시간에 잠깐 20분 정도만 읽으면 될거야.\""
+    }
+]
+
