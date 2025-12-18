@@ -135,17 +135,17 @@ export function SyntaxCard({ data, index }: SyntaxCardProps) {
     let cursor = 0;
 
     displayChunks.forEach((chunk) => {
-      // if (chunk.start > cursor) {
-      //   const gap = data.sentence.slice(cursor, chunk.start);
-      //   segments.push(
-      //     <span
-      //       key={`gap-${cursor}-${chunk.start}`}
-      //       className="whitespace-pre text-[17px] leading-7 text-slate-600 mr-1 mb-1 inline-flex items-end"
-      //     >
-      //       {gap}
-      //     </span>,
-      //   );
-      // }
+      if (chunk.start > cursor) {
+        const gap = data.sentence.slice(cursor, chunk.start);
+        segments.push(
+          <span
+            key={`gap-${cursor}-${chunk.start}`}
+            className="whitespace-pre text-[17px] leading-7 text-slate-600 mr-1 mb-1 inline-flex items-end"
+          >
+            {gap}
+          </span>,
+        );
+      }
 
       const nested = nestedByKey[chunkKey(chunk)] ?? [];
       const isModifier = !chunk.senEle && chunk.gramEle;
